@@ -18,9 +18,9 @@ PRODUCT_MODEL := SM-G531H
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
-# Stock build fingerprint
-BUILD_FINGERPRINT := "samsung/grandprimeve3gxx/grandprimeve3g:5.1.1/LMY48B/G531HDDU0APK2:user/release-keys"
-PRIVATE_BUILD_DESC := "grandprimeve3gxx-user 5.1.1 LMY48B G531HDDU0APK2 release-keys"
+# LineageOS build fingerprint
+BUILD_FINGERPRINT="LineageOS/Samsung/${PRODUCT_MODEL}/${PRODUCT_DEVICE}/${PLATFORM_VERSION}/${BUILD_ID}/userdebug/test-keys" \
+PRIVATE_BUILD_DESC="grandprimeve3g-userdebug 7.1.2 NJH47F 20a9a2dc4e test-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.build.fingerprint=$(BUILD_FINGERPRINT)
