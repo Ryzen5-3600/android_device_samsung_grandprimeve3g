@@ -19,7 +19,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
 # LineageOS build fingerprint
-BUILD_FINGERPRINT="LineageOS/Samsung/${PRODUCT_MODEL}/${PRODUCT_DEVICE}/${PLATFORM_VERSION}/${BUILD_ID}/userdebug/test-keys"
+BUILD_FINGERPRINT="LineageOS/Samsung/${PRODUCT_MODEL}/${PLATFORM_VERSION}/${BUILD_ID}/userdebug/test-keys"
 PRIVATE_BUILD_DESC="grandprimeve3g-userdebug 7.1.2 NJH47F 20a9a2dc4e test-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
